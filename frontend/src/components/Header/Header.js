@@ -26,7 +26,7 @@ const Header = ({ setSearch }) => {
     <Navbar expand="lg" className="bg-primary" variant="dark">
       <Container>
         <Navbar.Brand>
-          <Link to="/">Note Zipper</Link>
+          <Link to="/">Note Keeper</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
