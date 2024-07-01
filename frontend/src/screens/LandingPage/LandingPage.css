@@ -1,0 +1,167 @@
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../../background1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  font-size: 95px;
+}
+.subtitle {
+  font-size: 25px;
+  padding-top: 10px;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+.buttonContainer {
+  margin-top: 50px;
+  /* margin-left: 30px;
+  margin-right: 20px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.landingbutton {
+  width: 200px;
+  height: 55px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+  .title {
+    padding: 0 248px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 60px;
+    padding: 0 198px;
+  }
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 60px;
+    padding: 0 188px;
+  }
+  .landingbutton {
+    width: 120px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 40px;
+    padding: 0 161px;
+  }
+  .landingbutton {
+    width: 120px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .title {
+    font-size: 35px;
+    padding: 0 161px;
+  }
+  .subtitle {
+    font-size: 20px;
+    /* padding-top: 10px; */
+  }
+  .landingbutton {
+    width: 90px;
+    height: 30px;
+    padding: 6px 14px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .title {
+    font-size: 32px;
+    padding: 0 180px;
+  }
+  .subtitle {
+    font-size: 15px;
+    /* padding-top: 10px; */
+  }
+  .landingbutton {
+    width: 70px;
+    height: 23px;
+    padding: 6px 14px;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .title {
+    font-size: 29px;
+    padding: 0 152px;
+  }
+  .subtitle {
+    font-size: 15px;
+    /* padding-top: 10px; */
+  }
+  .landingbutton {
+    width: 70px;
+    height: 23px;
+    /* padding: 6px 14px; */
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .title {
+    font-size: 25px;
+    padding: 0 146px;
+  }
+  .subtitle {
+    font-size: 15px;
+    /* padding-top: 10px; */
+  }
+  .landingbutton {
+    width: 70px;
+    height: 23px;
+    /* padding: 6px 14px; */
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .title {
+    font-size: 25px;
+    padding: 0 120px;
+  }
+  .subtitle {
+    font-size: 15px;
+    /* padding-top: 10px; */
+  }
+  .landingbutton {
+    width: 70px;
+    height: 23px;
+    /* padding: 6px 14px; */
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 366px) {
+  .title {
+    font-size: 25px;
+    padding: 0 100px;
+  }
+  .subtitle {
+    font-size: 15px;
+    /* padding-top: 10px; */
+  }
+  .landingbutton {
+    width: 70px;
+    height: 23px;
+    /* padding: 6px 14px; */
+    font-size: 8px;
+  }
+}
